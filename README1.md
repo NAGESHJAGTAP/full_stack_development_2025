@@ -18,7 +18,7 @@ hassle, and all information Provide This is important because people
 need quick and accurate information especially when in a new area or
 in emergencies. It saves time Reduces stress and helps users make
 better choices easily.
-a) Why is this problem important to address?
+ a) Why is this problem important to address?
 This problem is important because people often struggle to find reliable
 information about nearby places quickly, especially in new areas or
 emergencies. Solving it saves time, reduces stress, and improves user
