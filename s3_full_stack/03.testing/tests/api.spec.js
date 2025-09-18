@@ -43,4 +43,13 @@ test.describe('Next.js (App Router) workbook API', () => {
     const body = await r.json();
     expect(body).toHaveProperty('error');
   });
+
+    test('GET /api/companies/search?location=Hyderabad', async ({ request }) => {
+    const res = await request.get('/api/companies/search?location=Hyderabad');
+    expect(res.status()).toBe(200);
+    const { count, items } = await res.json();
+    expect(count).toBeGreaterThan(0);
+    const found = items.find(it => it.location && it.location.toLowerCase().includes('hyderabad'));
+    expect(found).toBeTruthy();
+  });
 });
